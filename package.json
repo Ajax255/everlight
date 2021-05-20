@@ -1,0 +1,23 @@
+{
+  "name": "everlight",
+  "version": "1.0.0",
+  "description": "Game developed using threejs.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajax255/everlight.git"
+  },
+  "author": "Anthony Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajax255/everlight/issues"
+  },
+  "homepage": "https://github.com/Ajax255/everlight#readme"
+}
