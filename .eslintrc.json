@@ -13,7 +13,7 @@
         "indent": ["error", "tab"],
         "quotes": ["error", "single"],
         "semi": ["error", "always"],
-        "complexity": ["error", 15],
+        "complexity": ["error", 20],
         "new-cap": "error",
 
         // override configuration set by extending "eslint:recommended"
