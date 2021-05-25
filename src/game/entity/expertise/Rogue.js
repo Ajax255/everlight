@@ -1,6 +1,6 @@
-import Dice from '../game/mechanics/Dice.js';
+import Dice from '../../mechanics/Dice.js';
 
-export class Rogue {
+export default class Rogue {
 	constructor(lvl, modInt, modCon) {
 		this.rolls = new Dice();
 		this.skills = [ 'Acrobatics', 'Appraise', 'Climb', 'Craft', 'Diplomacy', 'Disable Device',

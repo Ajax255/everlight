@@ -1,6 +1,6 @@
-import Dice from '../game/mechanics/Dice.js';
+import Dice from '../../mechanics/Dice.js';
 
-export class Alchemist {	
+export default class Alchemist {	
 	constructor(lvl, modInt, modCon) {
 		this.rolls = new Dice();
 		this.skills = [ 'Appraise', 'Craft', 'Disable Device', 'Fly', 'Heal', 'Knowledge(arcana)',

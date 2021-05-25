@@ -1,6 +1,6 @@
-import Dice from '../game/mechanics/Dice.js';
+import Dice from '../../mechanics/Dice.js';
 
-export class Fighter {
+export default class Fighter {
 	constructor(lvl, modInt, modCon) {
 		this.rolls = new Dice();
 		this.skills = [ 'Climb', 'Craft', 'Handle Animal', 'Intimidate', 'Knowledge(dungeoneering)',

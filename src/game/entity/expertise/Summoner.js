@@ -1,6 +1,6 @@
-import Dice from '../game/mechanics/Dice.js';
+import Dice from '../../mechanics/Dice.js';
 
-export class Summoner {
+export default class Summoner {
 	constructor(lvl, modInt, modCon) {
 		this.rolls = new Dice();
 		this.skills = [ 'Craft', 'Fly', 'Handle Animal', 'Knowledge(all)', 'Linguistics', 'Profession',

@@ -1,6 +1,6 @@
-import Dice from '../game/mechanics/Dice.js';
+import Dice from '../../mechanics/Dice.js';
 
-export class Druid {
+export default class Druid {
 	constructor(lvl, modInt, modCon) {
 		this.rolls = new Dice();
 		this.skills = [ 'Climb', 'Craft', 'Fly', 'Handle Animal', 'Heal', 'Knowledge(geography)',

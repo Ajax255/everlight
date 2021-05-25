@@ -1,5 +1,15 @@
 import * as THREE from '../engine/three.js-master/build/three.module.js';
 import Dice from '../game/mechanics/Dice.js';
+import Alchemist from '../game/entity/expertise/Alchemist.js';
+import Cleric from '../game/entity/expertise/Cleric.js';
+import Druid from '../game/entity/expertise/Druid.js';
+import Fighter from '../game/entity/expertise/Fighter.js';
+import Paladin from '../game/entity/expertise/Paladin.js';
+import Ranger from '../game/entity/expertise/Ranger.js';
+import Rogue from '../game/entity/expertise/Rogue.js';
+import Sorcerer from '../game/entity/expertise/Sorcerer.js';
+import Summoner from '../game/entity/expertise/Summoner.js';
+import Wizard from '../game/entity/expertise/Wizard.js';
 
 function main() {
 	let dice = new Dice();
@@ -10,7 +20,16 @@ function main() {
 	console.log(dice.twentySided());
 	console.log(`${dice.percentage()}%`);
 	console.log(dice.startingStats());
-	console.log();
+	console.log(new Alchemist(1, 16, 3));
+	console.log(new Cleric(1, 16, 3));
+	console.log(new Druid(1, 16, 3));
+	console.log(new Fighter(1, 16, 3));
+	console.log(new Paladin(1, 16, 3));
+	console.log(new Ranger(1, 16, 3));
+	console.log(new Rogue(1, 16, 3));
+	console.log(new Sorcerer(1, 16, 3));
+	console.log(new Summoner(1, 16, 3));
+	console.log(new Wizard(1, 16, 3));
 	const canvas = document.querySelector('#canvas');
 	const renderer = new THREE.WebGLRenderer({canvas});
 

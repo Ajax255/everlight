@@ -1,6 +1,6 @@
-import Dice from '../game/mechanics/Dice.js';
+import Dice from '../../mechanics/Dice.js';
 
-export class Ranger {
+export default class Ranger {
 	constructor(lvl, modInt, modCon) {
 		this.rolls = new Dice();
 		this.skills = [ 'Climb', 'Craft', 'Handle Animal', 'Heal', 'Intimidate', 'Knowledge(dungeoneering)',
